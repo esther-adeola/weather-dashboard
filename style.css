@@ -1,0 +1,27 @@
+.box{
+    background-color: violet;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 300px;
+}
+.tile{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(197, 193, 193);
+    padding: 5px;
+}
+.input-group-append{
+    display: block;
+    border: 1px solid black;
+}
+.forecastIcon{
+    display: flex; 
+    flex-wrap: wrap;
+    height: 50px;
+    width:50px;
+}
